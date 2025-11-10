@@ -1,0 +1,49 @@
+{
+  "name": "StoryMap - Berbagi Cerita",
+  "short_name": "StoryMap",
+  "description": "Aplikasi berbagi cerita dan peta interaktif.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0000FF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/logo.png",   
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo.png",   
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/tampilan-aplikasi.png", 
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/tampilan.png", 
+      "sizes": "566x883",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tulis Cerita",          
+      "short_name": "Cerita",           
+      "url": "/#/add",                  
+      "icons": [{ "src": "images/tulis-cerita.png", "sizes": "1833x903" }] 
+    },
+    {
+      "name": "Lihat Peta",            
+      "short_name": "Peta",             
+      "url": "/#/map",                  
+      "icons": [{ "src": "/images/peta.png", "sizes": "1100x668" }] 
+    }
+  ]
+}
